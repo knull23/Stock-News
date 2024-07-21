@@ -4,13 +4,13 @@ from twilio.rest import Client
 STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 
-STOCK_ENDPOINT = "https://www.alphavantage.co/query"
-NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
-STOCK_API_KEY = "6QKBWMAEA4Q2NB5E"
-NEWS_API_KEY = "9100bae3959f4af7bd0a2452605de273"
-TWILIO_SID = "AC5376e7ad6e6d3405356bf084fa3d86e3"
-TWILIO_AUTH_TOKEN = "ebf2f9a0e02faef418887a6c077c2d41"
-TWILIO_PHONE_NUMBER = "+17624223997"
+STOCK_ENDPOINT = "your stock endpoint"
+NEWS_ENDPOINT = "your news endpoint"
+STOCK_API_KEY = "your stock api key"
+NEWS_API_KEY = "your news api key"
+TWILIO_SID = "your twilio acc sid "
+TWILIO_AUTH_TOKEN = "your twilio auth token"
+TWILIO_PHONE_NUMBER = "your twilio phone no"
 
 stock_params = {
     'apikey': STOCK_API_KEY,
